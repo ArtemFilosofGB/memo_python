@@ -105,4 +105,17 @@ Enter date to filter notes (YYYY-MM-DD):
 main.py --command exit
 ```
 
+Работа производиться с файлом note.json
 
+Формат данных:
+
+```json
+[   
+   {
+        "id": 1,
+        "title": "Title1",
+        "message": "Message1",
+        "timestamp": "2024-03-23T08:30:53.585406"
+    }
+]
+```
