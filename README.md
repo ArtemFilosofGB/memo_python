@@ -67,11 +67,11 @@ Enter command (add, edit, delete, read, filter, exit):
 `python main.py --command read` или `python3.11.exe main.py --command read`
 
 ### Доступные аргументы
-- add: Добавить новую заметку с указанным заголовком и сообщением.
+- **add**: Добавить новую заметку с указанным заголовком и сообщением.
 ```commandline
 python main.py --command add --title TITLETEXT --msg MSGTEXT
 ```
-- edit: Редактировать существующую заметку, указав идентификатор заметки, новый заголовок и новое сообщение.
+- **edit**: Редактировать существующую заметку, указав идентификатор заметки, новый заголовок и новое сообщение.
 ```commandline
 python main.py --command edit --note_id IDNUMBER --title NEWTITLE --msg NEWMESSAGE
 ```
@@ -85,25 +85,25 @@ Enter new message: new_msg
 ```commandline
 python main.py --command edit --note_id IDNUMBERNEW 
 ```
-- delete: Удалить заметку, указав идентификатор заметки.
+- **delete**: Удалить заметку, указав идентификатор заметки.
 ```commandline
 python main.py --command delete 
 Enter note id to delete: 8
 Note deleted successfully.
 ```
-- read: Показать все заметки.
+- **read**: Показать все заметки.
 ```commandline
 python main.py --command read  
 ```
 ```commandline
 python main.py --command read
 ```
-- filter: Отфильтровать заметки по конкретной дате (в формате ГГГГ-ММ-ДД).
+- **filter**: Отфильтровать заметки по конкретной дате (в формате ГГГГ-ММ-ДД).
 ```commandline
 python main.py --command filter
-Enter date to filter notes (YYYY-MM-DD): 
+Enter date to filter notes (YYYY-MM-DD):2024-03-27 
 ```
-- exit или quit: Выйти из программы.
+- **exit** или quit: Выйти из программы.
 ```commandline
 main.py --command exit
 ```
