@@ -61,9 +61,12 @@ Enter command (add, edit, delete, read, filter, exit):
 - `--msg`: Введите содержимое заметки.
 - `--note_id`: Укажите идентификатор заметки для редактирования или удаления (положительное число).
 
-### 
-Описание параментов агрумента `--command`
+### Описание параментов агрументов 
+Ключевое слово `--command` обязательно.
+В зависимости от установленной версии python начало команды может отличаться:
+`python main.py --command read` или `python3.11.exe main.py --command read`
 
+### Доступные аргументы
 - add: Добавить новую заметку с указанным заголовком и сообщением.
 ```commandline
 python main.py --command add --title TITLETEXT --msg MSGTEXT
