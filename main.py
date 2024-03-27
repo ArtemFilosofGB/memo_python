@@ -83,8 +83,7 @@ def main_console():
             delete_note(note_id)
             print("Note deleted successfully.")
         elif command == 'read':
-            for note in notes:
-                print(note)
+            read_notes()
         elif command == 'filter':
             date = input("Enter date to filter notes (YYYY-MM-DD): ")
             filtered_notes = filter_notes_by_date(date)
